@@ -5,7 +5,7 @@ import sys
 if len(sys.argv) < 3:
     print "usage is sgffile then analysis"
 
-sys.path.append("./gotools/sgflib1.0")
+sys.path.append("./sgflib1.0")
 import sgflib
 
 
