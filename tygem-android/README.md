@@ -1,7 +1,11 @@
-# Running
+# Simple install
+1. Download the base.apk from output/base.apk to your device and install
+
+# Creating yourself
 1. Install JDK
 1. Modify build-apk with your JAVA directory if it's not in your path
 1. ./build-apk
+1. Set keystore passwords and certs.  Not too important if making for yourself.
 1. Final apk is in output/base.apk
 1. You can use adb install or copy it over to your device.  You will need to remove tygem first.
 
