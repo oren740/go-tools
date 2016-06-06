@@ -1,0 +1,18 @@
+#!/usr/bin/bash -ex
+
+export PATH=$PATH:/cygdrive/c/Program\ Files\ \(x86\)/Java/jdk1.8.0_72/bin
+
+rm -rf base
+./apktool.bat if framework-res.apk
+./apktool.bat if base.apk
+./apktool.bat d base.apk
+cp strings.xml base/res/values/strings.xml
+./apktool.bat b base
+
+rm -f debug.keystore
+keytool -genkey -v -keystore debug.keystore -alias android -keyalg RSA -keysize 2048 -validity 20000
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore debug.keystore base/dist/base.apk android
+
+mkdir -p output/
+rm -f output/base.apk
+./zipalign.exe -v 4 base/dist/base.apk output/base.apk
