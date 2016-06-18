@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
         <string name="store_picture_title">Save image</string>
         <string name="store_picture_message">Allow Ad to store image in Picture gallery?</string>
@@ -1623,6 +1623,7 @@ Item : %s"</string>
 <string name="chaksu_help">Move Help</string>
 <string name="chaksu_help_view">View Help</string>
         <string name="gcm_setting">Alarm Setting</string>
+	<string name="chatting_setting">Chat Setting</string>
         <string name="chaksu_setting">Stone Placement Setting</string>
         <string name="chaksu">Stone Placement</string>
         <string name="chaksu_setting_confirm">Confirm before placing stone.</string>

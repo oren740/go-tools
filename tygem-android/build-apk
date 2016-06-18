@@ -14,6 +14,8 @@ convert base/res/drawable-xhdpi-v4/toggle_off.jpg base/res/drawable-xhdpi-v4/tog
 rm base/res/drawable-xhdpi-v4/*.jpg
 cp base/res/values/strings.xml strings.xml.orig
 cp strings.xml base/res/values/strings.xml
+cp gwanlist_btn_normal.png base/res/drawable-xhdpi-v4/gwanlist_btn_normal.png
+cp gwanlist_btn_pressed.png base/res/drawable-xhdpi-v4/gwanlist_btn_pressed.png
 ./apktool.bat b base
 
 rm -f debug.keystore
