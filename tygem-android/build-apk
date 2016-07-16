@@ -6,9 +6,9 @@ rm -rf base
 ./apktool.bat if framework-res.apk
 ./apktool.bat if base.apk
 ./apktool.bat d -t --keep-broken-resources base.apk
-mv base/res/drawable-hdpi-v4/tygem.PNG base/res/drawable-hdpi-v4/tygem.png
-convert base/res/drawable-xhdpi-v4/btn_off.png base/res/drawable-xhdpi-v4/btn_off.jpg
-convert base/res/drawable-xhdpi-v4/btn_off.jpg base/res/drawable-xhdpi-v4/btn_off.png
+#mv base/res/drawable-hdpi-v4/tygem.PNG base/res/drawable-hdpi-v4/tygem.png
+#convert base/res/drawable-xhdpi-v4/btn_off.png base/res/drawable-xhdpi-v4/btn_off.jpg
+#convert base/res/drawable-xhdpi-v4/btn_off.jpg base/res/drawable-xhdpi-v4/btn_off.png
 convert base/res/drawable-xhdpi-v4/toggle_off.png base/res/drawable-xhdpi-v4/toggle_off.jpg
 convert base/res/drawable-xhdpi-v4/toggle_off.jpg base/res/drawable-xhdpi-v4/toggle_off.png
 rm base/res/drawable-xhdpi-v4/*.jpg

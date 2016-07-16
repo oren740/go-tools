@@ -1384,6 +1384,7 @@
 <string name="sub_menu_daekuk_invite_reject">Reject Match Request</string>
         <string name="sub_menu_vibrator">Vibrating Alarm During Game</string>
         <string name="alarm">Alarm</string>
+        <string name="loading">Loading..</string>
         <string name="notic">Notice</string>
         <string name="appversion_missing">"Newer version App is available. Please update your app. When you can’t view the update, please reinstall after deleting.
 "</string>
@@ -1460,12 +1461,15 @@ If you select 'No', the app will close."</string>
         <string name="select_server">Select Server</string>
         <string name="select_room">Select Room</string>
         <string name="state_ready">Getting Ready.</string>
+        <string name="romm_title_ready">Preparing...</string>
         <string name="possible_server_free">"This server is unavailable for Free Users. Please select a different server. "</string>
         <string name="login_conn_server_success">"You are connected to %s server."</string>
         <string name="login_conn_server">We are trying to %s Server.</string>
         <string name="login_default_sever_name">Master Room V</string>
+        <string name="login_failed">Failed to login.</string>
         <string name="login_error_1">Same ID LogIn</string>
         <string name="login_error_2">The ID already exists.</string>
+        <string name="login_error_3">Username or password is incorrect</string>
         <string name="login_error_4">You have entered a wrong ID or password. </string>
         <string name="login_error_5">This server is not available for LogIn.</string>
         <string name="login_error_6">The server you have requested has too many users!</string>
@@ -1578,6 +1582,8 @@ If you select 'No', the app will close."</string>
         <string name="item_q_direct_charge">Do you want to use quick charge item??</string>
         <string name="item_price_won">Won</string>
         <string name="item_purchase_conform">"'Do you want to purchase %s'"?</string>
+        <string name="item_count">Count</string>
+        <string name="item_count_end">End</string>
         <string name="item_purchase">Purchase</string>
         <string name="purchase_cancel">Purchase has been canceled..</string>
         <string name="purchase_complete">Purchase has been complete.</string>
@@ -1669,6 +1675,7 @@ Remaining : %d Time(s)"</string>
         <string name="game_join7">You don’t have enough for admission for the room.</string>
         <string name="game_join8">You are restricted.</string>
         <string name="game_exit">Do you want to exit the room?</string>
+        <string name="game_unknow">Unknown rooms</string>
         <string name="game_zoom_out">Minimize</string>
         <string name="alert_mobile_betting">"Mobile Betting Gold and TMoney for PC are separate. "</string>
         <string name="betting_one_more_item_alert">"You have participated in betting in the current period. To participate again, you need an item once more.
@@ -1877,6 +1884,7 @@ Remaining : %d Time(s)"</string>
         <string name="betting_limit_item">"This item is not allowed in the current game. "</string>
         <string name="betting_not_using_item">This match doesn’t allow Betting Item (Double/Insurance).</string>
         <string name="betting_enter_room">You are entering the betting match room. </string>
+        <string name="rematch_req">"'%s' Are you sure you want to agree to request? Black and white will change automatically.  The conditions are the same as the previous game."</string>
         <string name="match_type_up_down">Rated Games</string>
 <string name="match_type_friendship">Friendly Game</string>
         <string name="match_speed_fast">Blitz</string>
@@ -2383,4 +2391,8 @@ Record against the Opponent"</string>
     <string name="haltmessage">Room has a stopped game.</string>
     <string name="edu_deny">Paid member server.</string>
     <string name="finger_event">Please use two fingers, and pull down.</string>
+    <string name="next_command">></string>
+    <string name="int_zero">0</string>
+    <string name="vs">VS</string>
+    <string name="space" />
 </resources>
