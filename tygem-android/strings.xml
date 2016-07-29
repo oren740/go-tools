@@ -2344,6 +2344,7 @@ Record against the Opponent"</string>
     <string name="ai_exit">Stop playing the AI?</string>
     <string name="ai_think_move_pass">The AI has passed.</string>
     <string name="ai_setting_txt">Please configure the AI you’d like to play.</string>
+    <string name="ai_thinking">AI thinking</string>
     <string name="auto_setting_txt">Please configure automatch settings.</string>
     <string name="category_info_txt">Please select the menu you’d like to move.</string>
     <string name="category_watcher_live">Live Broadcast</string>

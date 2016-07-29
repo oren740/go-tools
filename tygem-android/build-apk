@@ -1,6 +1,6 @@
 #!/usr/bin/bash -ex
 
-export PATH=$PATH:/cygdrive/c/Program\ Files\ \(x86\)/Java/jdk1.8.0_72/bin:`pwd`
+export PATH=/cygdrive/c/Program\ Files\ \(x86\)/Java/jdk1.8.0_102/bin:`pwd`:$PATH
 
 rm -rf base
 ./apktool.bat if framework-res.apk
