@@ -16,6 +16,7 @@ cp base/res/values/strings.xml strings.xml.orig
 cp strings.xml base/res/values/strings.xml
 cp gwanlist_btn_normal.png base/res/drawable-xhdpi-v4/gwanlist_btn_normal.png
 cp gwanlist_btn_pressed.png base/res/drawable-xhdpi-v4/gwanlist_btn_pressed.png
+for i in `grep -lr MS949 base`; do sed -i s/MS949/MS932/g $i; done
 ./apktool.bat b base
 
 rm -f debug.keystore

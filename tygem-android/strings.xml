@@ -1961,6 +1961,8 @@ Leave the game?"</string>
         <string name="daekuk_exit">The game is not yet finished. Continue?</string>
         <string name="daekuk_exit_confirm">"The game has not yet finished.
 Leave after resigning?"</string>
+        <string name="daekuk_exit_gievup_confirm">"The game has not yet finished.
+Do you want to giveup?"</string>
         <string name="daekuk_gega_cancel">Request to score the game has been denied.</string>
         <string name="daekuk_req_pass">Request undo?</string>
         <string name="daekuk_req_pass_ing">Requesting undo.</string>
@@ -2002,6 +2004,8 @@ Leave after resigning?"</string>
         <string name="daekuk_gega_deny">It is not allowed to request calculation before 100 moves. </string>
         <string name="daekuk_gamepass_deny">You can pass when it is your turn to play. </string>
         <string name="daekuk_game_reserved">Request to Scheduled Game</string>
+        <string name="daekuk_game_reserved_no_partner">"There is no partner yet. 
+Please wait."</string>
         <string name="daekuk_game_rematch">Request to Rematch</string>
         <string name="daekuk_game_rematch_partner_txt">’s Request to Rematch</string>
         <string name="daekuk_game_giveup">Request to Resign</string>
@@ -2013,6 +2017,10 @@ Leave after resigning?"</string>
         <string name="daekuk_title_desc_dum">Komi %d Point</string>
         <string name="daekuk_title_desc_last" formatted="false">%s (%d Move)</string>
         <string name="daekuk_chaksu_button">Place</string>
+        <string name="daekuk_exit_partner">The other connection has been terminated</string>
+        <string name="daekuk_exit_partner_info">After wins, disabled access</string>
+        <string name="daekuk_exit_partner_giveup">"Waiting for the other connection.
+Are you sure you want to leave?"</string>
         <string name="match_form_sec">%dSecond</string>
         <string name="match_form_sec_count">%dTime(s)</string>
         <string name="legend_countdown">%d move before revealing the hidden match.</string>
