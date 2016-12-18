@@ -1376,10 +1376,12 @@
         <string name="uxmain_news_v3">News</string>
 <string name="uxmain_ai_daekuk">AI Match</string>
 <string name="uxmain_education">Lecture</string>
+    <string name="uxmain_tygemTV">TV</string>
         <string name="success">success</string>
         <string name="option_menu_first">Back To Beginning</string>
         <string name="option_menu_setting">Setting</string>
         <string name="option_menu_logout">LogOut</string>
+    <string name="reconnection">Reconnect</string>
 <string name="option_menu_logout_newline">"Logout"</string>
 <string name="sub_menu_daekuk_invite_reject">Reject Match Request</string>
         <string name="sub_menu_vibrator">Vibrating Alarm During Game</string>
@@ -1392,6 +1394,7 @@
         <string name="connection_server">Connecting to the Server.</string>
         <string name="network_3g">"Connected through 3G Data. It is possible have data charge. It is recommended to get connected through Wi-Fi. "</string>
         <string name="network_4g">"Connected through LTE. It is possible have data charge. It is recommended to get connected through Wi-Fi. ""</string>
+    <string name="internet_offline_txt">No internet connection</string>
 <string name="internet_offline">"Your connection is offline.
  Please try again after checking your internet connection."</string>
         <string name="network_none">"Isn’t connected to network. Please check your network connection."</string>
@@ -1403,6 +1406,7 @@ If you select 'No', the app will close."</string>
         <string name="network_interrupt_login">"Disconnected from the server. Do you want to go to the login page? Click No to end the app."</string>
         <string name="logincheck_guest">You need to log in to use this.</string>
         <string name="exit_app">Are you closing the app?</string>
+    <string name="exit">Are you sure you want to exit?</string>
         <string name="ok">OK</string>
         <string name="close">Close</string>
         <string name="btn_yes">Yes</string>
@@ -1439,6 +1443,29 @@ If you select 'No', the app will close."</string>
         <string name="join_2">Join</string>
 <string name="join_3">Join as (as member)</string>
 <string name="join_guest">Join (as guest)</string>
+    <string name="portable_badukpan">Portable board</string>
+    <string name="portable_save_badukrank_error">Please select rank</string>
+    <string name="portable_save_exception_word">Special characters (_) are not allowed</string>
+    <string name="save">Save</string>
+    <string name="black_user">Black player</string>
+    <string name="white_user">White player</string>
+    <string name="daekuk_commnet">User comment</string>
+    <string name="daekuk_commnet_hit">Too many characters</string>
+    <string name="save_path">Save path</string>
+    <string name="q_saveGibo">Would you like to save your game?</string>
+    <string name="q_deleteGibo">Are you sure you want to delete?</string>
+    <string name="saveGibo_success">Saved succesfully</string>
+    <string name="saveGibo_fail">Save failed</string>
+    <string name="deleteGibo_success">Deleted succesfully</string>
+    <string name="deleteGibo_fail">Delete failed</string>
+    <string name="loadGibo_success">Loaded succesfully</string>
+    <string name="loadGibo_fail">Load failed</string>
+    <string name="portable_saveGibo">Save</string>
+    <string name="portable_delGibo">Delete</string>
+    <string name="portable_loadGibo">Load</string>
+    <string name="date">Date</string>
+    <string name="result">Result</string>
+    <string name="daekukname">Name</string>
 <string name="login_location_selection">Country Selection</string>
 <string name="login_server_selection">Server Selection</string>
         <string name="location_korea">Korean User</string>
@@ -1639,6 +1666,7 @@ Item : %s"</string>
         <string name="gcm_setting">Alarm Setting</string>
 	<string name="chatting_setting">Chat Setting</string>
         <string name="chaksu_setting">Stone Placement Setting</string>
+    <string name="chaksuButton_setting">Start button</string>
         <string name="chaksu">Stone Placement</string>
         <string name="chaksu_setting_confirm">Confirm before placing stone.</string>
         <string name="chaksu_setting_confirm_double">Confirm before placing stone: Expansion with Double Touch</string>
@@ -1961,8 +1989,8 @@ Leave the game?"</string>
         <string name="daekuk_exit">The game is not yet finished. Continue?</string>
         <string name="daekuk_exit_confirm">"The game has not yet finished.
 Leave after resigning?"</string>
-        <string name="daekuk_exit_gievup_confirm">"The game has not yet finished.
-Do you want to giveup?"</string>
+    <string name="daekuk_exit_gievup_confirm">"Game hasn't ended.
+Do you want to give up?"</string>
         <string name="daekuk_gega_cancel">Request to score the game has been denied.</string>
         <string name="daekuk_req_pass">Request undo?</string>
         <string name="daekuk_req_pass_ing">Requesting undo.</string>
@@ -1985,6 +2013,7 @@ Do you want to giveup?"</string>
         <string name="daekuk_item_1n1_">Draw</string>
         <string name="daekuk_item_giveup_">Resign</string>
         <string name="daekuk_item_gumto">Review</string>
+    <string name="daekuk_item_gumto_end">End review</string>
         <string name="daekuk_item_susun">Sequence</string>
         <string name="daekuk_item_gega">Score</string>
         <string name="daekuk_item_terrian">Evaluation</string>
@@ -1992,6 +2021,8 @@ Do you want to giveup?"</string>
         <string name="daekuk_item_liedonw">Pass</string>
         <string name="daekuk_item_call_help">Request Help</string>
         <string name="daekuk_gega_reject_message">There are still moves to be played.</string>
+    <string name="daekuk_gega_auto_reject_message">"The other party accepted the request,
+but rejected result beyond the time of agreement"</string>
         <string name="daekuk_item_call_help_01">Please help me to understand how to use this.</string>
         <string name="daekuk_item_call_help_02">I’d like to request adjudication from a higher level player.</string>
         <string name="daekuk_item_call_help_03">What can be done in this type of situation?</string>
@@ -2004,8 +2035,8 @@ Do you want to giveup?"</string>
         <string name="daekuk_gega_deny">It is not allowed to request calculation before 100 moves. </string>
         <string name="daekuk_gamepass_deny">You can pass when it is your turn to play. </string>
         <string name="daekuk_game_reserved">Request to Scheduled Game</string>
-        <string name="daekuk_game_reserved_no_partner">"There is no partner yet. 
-Please wait."</string>
+    <string name="daekuk_game_reserved_no_partner">"Partner has not arrived. 
+Please wait"</string>
         <string name="daekuk_game_rematch">Request to Rematch</string>
         <string name="daekuk_game_rematch_partner_txt">’s Request to Rematch</string>
         <string name="daekuk_game_giveup">Request to Resign</string>
@@ -2017,10 +2048,10 @@ Please wait."</string>
         <string name="daekuk_title_desc_dum">Komi %d Point</string>
         <string name="daekuk_title_desc_last" formatted="false">%s (%d Move)</string>
         <string name="daekuk_chaksu_button">Place</string>
-        <string name="daekuk_exit_partner">The other connection has been terminated</string>
-        <string name="daekuk_exit_partner_info">After wins, disabled access</string>
-        <string name="daekuk_exit_partner_giveup">"Waiting for the other connection.
-Are you sure you want to leave?"</string>
+    <string name="daekuk_exit_partner">Partner has disconnected</string>
+    <string name="daekuk_exit_partner_info">Win on connection failure</string>
+    <string name="daekuk_exit_partner_giveup">"Waiting for partner connection
+Do you want to giveup?"</string>
         <string name="match_form_sec">%dSecond</string>
         <string name="match_form_sec_count">%dTime(s)</string>
         <string name="legend_countdown">%d move before revealing the hidden match.</string>
@@ -2352,7 +2383,7 @@ Record against the Opponent"</string>
     <string name="ai_exit">Stop playing the AI?</string>
     <string name="ai_think_move_pass">The AI has passed.</string>
     <string name="ai_setting_txt">Please configure the AI you’d like to play.</string>
-    <string name="ai_thinking">AI thinking</string>
+    <string name="ai_thinking">Artificial Intelligence</string>
     <string name="auto_setting_txt">Please configure automatch settings.</string>
     <string name="category_info_txt">Please select the menu you’d like to move.</string>
     <string name="category_watcher_live">Live Broadcast</string>
@@ -2389,6 +2420,7 @@ Record against the Opponent"</string>
     <string name="menu">Menu</string>
     <string name="gumto_refresh">Refresh</string>
     <string name="gumto_update">Latest Information</string>
+    <string name="menuClose">Close menu</string>
     <string name="explain_reference">Reference Diagram</string>
     <string name="explain_reference_title">-related Commentary</string>
     <string name="explain_reference_susun">%d move</string>
