@@ -1908,6 +1908,7 @@ Remaining : %d Time(s)"</string>
 
 
         <string name="betting_limit_game_big">"9 Dan Betting Big Match allows up to 2 billion PT or small half of your PT. "</string>
+    <string name="betting_limit_game_betuser">Betting event IDs can bet up to a maximum of 100 million PT.</string>
         <string name="betting_limit_game_event">"Games between 6 dan or less allow up to 5 million PT."</string>
         <string name="betting_limit_item">"This item is not allowed in the current game. "</string>
         <string name="betting_not_using_item">This match doesn’t allow Betting Item (Double/Insurance).</string>
