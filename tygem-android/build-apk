@@ -13,7 +13,7 @@ convert base/res/drawable-xhdpi-v4/toggle_off.png base/res/drawable-xhdpi-v4/tog
 convert base/res/drawable-xhdpi-v4/toggle_off.jpg base/res/drawable-xhdpi-v4/toggle_off.png
 rm base/res/drawable-xhdpi-v4/*.jpg
 cp base/res/values/strings.xml strings.xml.orig
-cp strings.xml base/res/values/strings.xml
+cp strings.xml base/res/values-en/strings.xml
 cp gwanlist_btn_normal.png base/res/drawable-xhdpi-v4/gwanlist_btn_normal.png
 cp gwanlist_btn_pressed.png base/res/drawable-xhdpi-v4/gwanlist_btn_pressed.png
 for i in `grep -lr MS949 base`; do sed -i s/MS949/MS932/g $i; done
