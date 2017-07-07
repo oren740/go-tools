@@ -1354,6 +1354,11 @@
         <string name="FAILED_LOGIN">LogIn Failure</string>
         <string name="LOGIN_ERROR">LogIn Failure</string>
         <string name="app_name">No.1 Tygem Baduk</string>
+        <string name="app_name_en">TYGEM</string>
+        <string name="app_name_ja">タイゼム</string>
+        <string name="app_name_lite">타이젬바둑Lite</string>
+        <string name="app_name_zhcn">弈城围棋</string>
+        <string name="app_name_zhtw">TYGEMTW</string>
         <string name="intro">Tygem_G3 Intro activity</string>
         <string name="roomlist">Room List</string>
         <string name="userlist">User List</string>
@@ -1670,6 +1675,7 @@ Item : %s"</string>
         <string name="google_app_id">1:472984029567:android:1cb50670cf58dce8</string>
         <string name="google_crash_reporting_api_key">AIzaSyDnQzIAIYX_tyRI3a5ibI5pEWTEDsHs6-o</string>
         <string name="google_storage_bucket">tygem-android-gcm.appspot.com</string>
+        <string name="nation_testing">Testing by country...</string>
 	<string name="chatting_setting">Chat Setting</string>
         <string name="chaksu_setting">Stone Placement Setting</string>
     <string name="chaksuButton_setting">Start button</string>
